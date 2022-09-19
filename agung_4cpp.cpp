@@ -1,0 +1,12 @@
+   cout << "Perhitungan Volume dan Luas Permukaan Balok" << endl;
+        cout << "Panjang balok = ";
+        cin >> a;
+        cout << "Lebar balok = ";
+        cin >> b;
+        cout << "Tinggi balok = ";
+        cin >> c;
+        volum = a*b*c;
+        luas = ((a * b) + (b * c) + (c * a)) * 2;
+        cout << "Volume Balok= " << volum << endl;
+        cout << "Luas permukaan Balok= " << luas << endl;
+        break ;
